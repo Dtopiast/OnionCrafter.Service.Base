@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionCrafter.Service.Base", "src\OnionCrafter.Service.Base\OnionCrafter.Service.Base.csproj", "{2BFEB55D-5BB6-4CCE-9AC6-4392780F9258}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BFEB55D-5BB6-4CCE-9AC6-4392780F9258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BFEB55D-5BB6-4CCE-9AC6-4392780F9258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BFEB55D-5BB6-4CCE-9AC6-4392780F9258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BFEB55D-5BB6-4CCE-9AC6-4392780F9258}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {684FA853-8BEC-4DA3-8084-F5FCA4691EF0}
+	EndGlobalSection
+EndGlobal
