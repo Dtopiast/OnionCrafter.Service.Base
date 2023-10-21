@@ -23,6 +23,7 @@ namespace OnionCrafter.Service.Base
         /// Gets the name of the object.
         /// </summary>
         public string Name { get; protected set; }
+
         /// <summary>
         /// The constructor without parameters
         /// </summary>
@@ -51,13 +52,14 @@ namespace OnionCrafter.Service.Base
         /// Stores the configuration for the service.
         /// </summary>
         protected readonly TServiceOptions _serviceConfig;
+
         /// <summary>
         /// The constructor with options.
         /// </summary>
         /// <param name="options">The options monitor dependency.</param>
         public BaseService(IOptionsMonitor<TServiceOptions> options)
         {
-            _serviceConfig = options.Get(Name);
+            _serviceConfig = options.Get(typeof(TServiceOptions).Name);
         }
     }
 }
